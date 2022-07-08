@@ -18,6 +18,10 @@ class Pessoa {
 //    inner class Endereco{
 //        var rua:String = "rua vila lobos"
 //    }
+
+    constructor()
+
+    fun pessoaInfo() = "$nome e $cpf"
 }
 
 fun main(){
@@ -32,4 +36,6 @@ fun main(){
 
     //exemplo chamando membro inner class
     //println(alex.Endereco().rua)
+
+    println(alex.pessoaInfo())
 }
